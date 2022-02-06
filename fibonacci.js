@@ -1,0 +1,17 @@
+const num=10;
+
+
+
+let x = 0;
+let y=1;
+ let fn = x+y;
+
+ 
+ console.log(x)
+ while(fn<num)
+ {
+ console.log(fn);
+ fn = x+yield;
+ x=y;
+ y=fn;
+ }
